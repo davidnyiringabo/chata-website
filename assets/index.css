@@ -1,0 +1,33 @@
+*{
+    font-family: poppins;
+}
+
+
+.article{
+    height: 20vh;
+    border: 1px solid #ccc;
+    margin: 2% auto;
+    padding: 1%;
+    border-radius: 5px ;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.article h6{
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#publicationAuthor{
+    color: #696969;
+}
+
+@media (max-width: 450px) {
+    .check{
+        display: none !important;
+    }
+
+    body > div{
+        margin: 10vh auto;
+    }
+}
